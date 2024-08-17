@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Weather APP</title>
+
+</head>
+
+<body>
+    <div class="big-box">
+        <input class="input-name" placeholder="Type City Name">
+
+        <button class="find-button" onclick="clickButton()">
+            <img class="find-img" alt="Find" src="https://www.svgrepo.com/show/488200/find.svg"></button>
+        <div class="medium-box">
+            <h2 class="city"></h2>
+
+            <p class="weather">21°C</p>
+            <div class="temp">
+                <p class="min-weather">L:15°</p>
+                <p class="max-weather">H:25°</p>
+            </div>
+            <div class="small-box">
+                <img class="img-icon" alt="Weather Information" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="text-weather">Foggy</p>
+            </div>
+
+            <p class="humi">Humidity: 76%</p>
+        </div>
+    </div>
+</body>
+
+</html>
